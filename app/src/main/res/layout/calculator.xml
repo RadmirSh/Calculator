@@ -3,6 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wood"
+        android:scaleType="centerCrop" />
+
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -11,6 +18,7 @@
         android:useDefaultMargins="true">
 
         <Button
+            android:id="@+id/key_zeroing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -18,130 +26,148 @@
             android:text="@string/key_zeroing" />
 
         <Button
+            android:id="@+id/key_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_percent"
-            android:backgroundTint="#ED7E4B"/>
+            android:backgroundTint="#ED7E4B"
+            android:text="@string/key_percent" />
 
         <Button
+            android:id="@+id/key_whole"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_whole"
-            android:backgroundTint="#ED7E4B"/>
+            android:backgroundTint="#ED7E4B"
+            android:text="@string/key_whole" />
 
         <Button
+            android:id="@+id/key_division"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_division"
-            android:backgroundTint="#ED7E4B"/>
+            android:backgroundTint="#ED7E4B"
+            android:text="@string/key_division" />
 
         <Button
+            android:id="@+id/key_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_7"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_7" />
 
         <Button
+            android:id="@+id/key_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_8"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_8" />
 
         <Button
+            android:id="@+id/key_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_9"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_9" />
 
         <Button
+            android:id="@+id/key_composition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_composition"
-            android:backgroundTint="#ED7E4B"/>
+            android:backgroundTint="#ED7E4B"
+            android:text="@string/key_composition" />
 
         <Button
+            android:id="@+id/key_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_4"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_4" />
 
         <Button
+            android:id="@+id/key_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_5"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_5" />
 
         <Button
+            android:id="@+id/key_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_6"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_6" />
 
         <Button
+            android:id="@+id/key_subtraction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_subtraction"
-            android:backgroundTint="#ED7E4B"/>
+            android:backgroundTint="#ED7E4B"
+            android:text="@string/key_subtraction" />
 
         <Button
+            android:id="@+id/key_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_1"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_1" />
 
         <Button
+            android:id="@+id/key_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_2"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_2" />
 
         <Button
+            android:id="@+id/key_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_3"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_3" />
 
         <Button
+            android:id="@+id/key_addition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_addition"
-            android:backgroundTint="#ED7E4B"/>
+            android:backgroundTint="#ED7E4B"
+            android:text="@string/key_addition" />
 
         <Button
+            android:id="@+id/key_0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_0"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_0" />
 
         <Button
+            android:id="@+id/key_dot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="@string/key_dot"
-            android:backgroundTint="#6A6666"/>
+            android:backgroundTint="#6A6666"
+            android:text="@string/key_dot" />
 
         <Button
+            android:id="@+id/key_equal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_columnWeight="1"
-            android:text="@string/key_equal"
-            android:backgroundTint="#ED7E4B"/>
+            android:backgroundTint="#ED7E4B"
+            android:text="@string/key_equal" />
     </GridLayout>
 </FrameLayout>
