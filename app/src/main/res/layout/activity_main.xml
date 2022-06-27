@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_columnSpan="4"
             android:layout_gravity="fill_horizontal"
-            android:textSize="42sp"
+            android:textSize="41sp"
             android:gravity="end"
             tools:text="111" />
 
